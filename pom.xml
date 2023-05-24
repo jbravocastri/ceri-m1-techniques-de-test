@@ -23,8 +23,8 @@
         <badges.skip>false</badges.skip>
     </properties>
 
-    <!-- Dependencies -->
     <dependencies>
+        <!-- Dependency for commons-collections4-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
