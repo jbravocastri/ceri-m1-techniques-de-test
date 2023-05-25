@@ -43,5 +43,7 @@ public class PokemonTrainer {
 	public IPokedex getPokedex() {
 		return pokedex;
 	}
-	
+
+	public void addPokemonToTeam(int i) {
+	}
 }

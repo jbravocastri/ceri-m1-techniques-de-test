@@ -12,9 +12,8 @@ public interface IPokemonTrainerFactory {
 	 * 
 	 * @param name Name of the created trainer.
 	 * @param team Team of the created trainer.
-	 * @param pokedexFactory Factory to use for creating associated pokedex instance.
 	 * @return Created trainer instance.
 	 */
-	PokemonTrainer createTrainer(String name, Team team, IPokedexFactory pokedexFactory);
-	
+	/*PokemonTrainer createTrainer(String name, Team team, IPokedexFactory pokedexFactory);*/
+	PokemonTrainer createTrainer(String name, Team team);
 }
