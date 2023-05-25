@@ -1,5 +1,6 @@
 package fr.univavignon.pokedex.api;
 
+
 /**
  * Trainer POJO.
  * 
@@ -7,20 +8,26 @@ package fr.univavignon.pokedex.api;
  */
 public class PokemonTrainer {
 
-	/** Trainer name. **/
+	/**
+	 * Trainer name.
+	 **/
 	private final String name;
 
-	/** Trainer team. **/
+	/**
+	 * Trainer team.
+	 **/
 	private final Team team;
-	
-	/** Trainer pokedex. **/
+
+	/**
+	 * Trainer pokedex.
+	 **/
 	private final IPokedex pokedex;
-	
+
 	/**
 	 * Default constructor.
-	 * 
-	 * @param name Trainer name.
-	 * @param team Trainer team.
+	 *
+	 * @param name    Trainer name.
+	 * @param team    Trainer team.
 	 * @param pokedex Trainer pokedex.
 	 */
 	public PokemonTrainer(final String name, final Team team, final IPokedex pokedex) {
@@ -28,22 +35,23 @@ public class PokemonTrainer {
 		this.team = team;
 		this.pokedex = pokedex;
 	}
-	
-	/** Name getter. **/
-	public String getName() {
+	/**
+	 * Name getter.
+	 **/
+	public String getName(String ash) {
 		return name;
 	}
 
-	/** Team getter. **/
+	/**
+	 * Team getter.
+	 **/
 	public Team getTeam() {
 		return team;
 	}
-	
-	/** Pokedex getter. **/
-	public IPokedex getPokedex() {
-		return pokedex;
-	}
 
-	public void addPokemonToTeam(int i) {
+	/**
+	 * Pokedex getter.
+	 **/
+	public IPokedex getPokedex() {return pokedex; }
+
 	}
-}
